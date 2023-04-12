@@ -1,6 +1,6 @@
 ﻿namespace M008;
 
-internal class AccessModifier
+class AccessModifier //Member ohne Modifier sind internal
 {
 	public string Name { get; set; } //Überall sichtbar, auch außerhalb vom Projekt
 
