@@ -4,14 +4,14 @@ namespace Linq_LabCode;
 
 public class LabCode
 {
-	//1. Gib alle Autos mit 6 Sitzplätzen aus.
-	//2. Gib die Summe aller Sitzplätze aus.
+	//1. Finde alle Autos mit 6 Sitzplätzen aus.
+	//2. Finde die Summe aller Sitzplätze.
 	//3. Sortiere alle Fahrzeuge nach Automarke, danach nach Höchstgeschwindigkeit.
-	//4. Gib alle Autos mit mindestens einem besetzten Sitzplatz aus.
-	//5. Gib alle Autos aus die schneller fahren können als der Durchschnitt aller Autos.
-	//6. Gib alle Autos aus bei denen mehr als die Hälfte aller Sitzplätze belegt sind.
-	//7. Gib pro Automarke das schnellste Auto aus.
-	//8. Gib die Höchstgeschwindigkeit pro Anzahl Sitzplätze aus und sortiere nach Sitzanzahl (schnellster 4-, 5- und 6-Sitzer).
+	//4. Finde alle Autos mit mindestens einem besetzten Sitzplatz.
+	//5. Finde alle Autos aus die schneller fahren können als der Durchschnitt aller Autos.
+	//6. Finde alle Autos aus bei denen mehr als die Hälfte aller Sitzplätze belegt sind.
+	//7. Finde pro Automarke das schnellste Auto.
+	//8. Finde die Höchstgeschwindigkeit pro Anzahl Sitzplätze und sortiere nach Sitzanzahl (schnellster 4-, 5- und 6-Sitzer).
 
 	static void Main(string[] args)
 	{
