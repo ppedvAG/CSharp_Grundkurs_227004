@@ -22,6 +22,17 @@ namespace M015
 		public W2()
 		{
 			InitializeComponent();
+
+			Microsoft.Win32.OpenFileDialog ofd = new();
+			bool? open = ofd.ShowDialog();
+			if (open == true)
+			{
+				string opened = ofd.FileName; //Pfad der ausgewählten Datei
+				//File einlesen...
+			}
+
+			Microsoft.Win32.SaveFileDialog sfd = new();
+
 			DialogResult = true;
 		}
 	}
